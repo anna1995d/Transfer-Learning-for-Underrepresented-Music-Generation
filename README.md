@@ -1,5 +1,5 @@
-# MusicVAE-TF2
-Migrating MusicVAE from TF 1.x to TF 2.x
+# Transfer Learning for Underrepresented Music Generation
+This repository is a companion resource to my M.Sc. thesis of the same name as well as the paper at https://arxiv.org/abs/2306.00281.
 
 ## Compute Canada Setup
 1. Clone the repository [on a Cedar server]
