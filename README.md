@@ -1,10 +1,16 @@
 # Transfer Learning for Underrepresented Music Generation
-This repository is a companion resource to my M.Sc. thesis of the same name as well as the paper at https://arxiv.org/abs/2306.00281. 
-Doosti, Anahita, and Matthew Guzdial. "Transfer Learning for Underrepresented Music Generation." arXiv preprint arXiv:2306.00281 (2023).
+This repository is a companion resource to my M.Sc. thesis of the same name as well as the [ICCC 2023](https://computationalcreativity.net/iccc23/) paper at https://arxiv.org/abs/2306.00281. 
+
+Cite: *Doosti, Anahita, and Matthew Guzdial. "Transfer Learning for Underrepresented Music Generation." arXiv preprint arXiv:2306.00281 (2023).*
+
+## Abstract
+This work investigates a combinational creativity approach to transfer learning to improve the performance of deep neural network-based models for music generation on out-of-distribution (OOD) genres. We identify Iranian folk music as an example of such an OOD genre for MusicVAE, a large generative music model. We find that a combinational creativity transfer learning approach can efficiently adapt MusicVAE to an Iranian folk music dataset, indicating potential for generating
+underrepresented music genres in the future.
 
 ## MusicVAE
-This work builds on the code available for MusicVAE by Google Magenta. (See [repository](https://github.com/magenta/magenta))
+This work uses the code available for MusicVAE by Google Magenta. (See [repository](https://github.com/magenta/magenta))
 
+## Usage
 Use the notebooks in the `\notebooks` to run experiments. (I recommend running on Colab.)
 
 The Iranian folk music dataset is in `data\tfrecord\Persian\persian_100_v1`. They are seperated into 5 folds.
