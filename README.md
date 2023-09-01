@@ -6,8 +6,11 @@ Doosti, Anahita, and Matthew Guzdial. "Transfer Learning for Underrepresented Mu
 This work builds on the code available for MusicVAE by Google Magenta. (See [repository](https://github.com/magenta/magenta))
 
 Use the notebooks in the `\notebooks` to run experiments. (I recommend running on Colab.)
+
 The Iranian folk music dataset is in `data\tfrecord\Persian\persian_100_v1`. They are seperated into 5 folds.
+
 fold_X_train.tfrecord: Contains every fold other than fold X. 
+
 fold_X_test.tfrecord: Contains fold X.
 (X a number from 1 to 5.)
 
