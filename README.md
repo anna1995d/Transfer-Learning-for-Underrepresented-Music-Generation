@@ -1,5 +1,6 @@
 # Transfer Learning for Underrepresented Music Generation
-This repository is a companion resource to my M.Sc. thesis of the same name as well as the paper at https://arxiv.org/abs/2306.00281.
+This repository is a companion resource to my M.Sc. thesis of the same name as well as the paper at https://arxiv.org/abs/2306.00281. 
+Doosti, Anahita, and Matthew Guzdial. "Transfer Learning for Underrepresented Music Generation." arXiv preprint arXiv:2306.00281 (2023).
 
 ## MusicVAE
 This work builds on the code available for MusicVAE by Google Magenta. (See [repository](https://github.com/magenta/magenta))
