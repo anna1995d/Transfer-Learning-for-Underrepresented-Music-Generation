@@ -9,9 +9,9 @@ Use the notebooks in the `\notebooks` to run experiments. (I recommend running o
 
 The Iranian folk music dataset is in `data\tfrecord\Persian\persian_100_v1`. They are seperated into 5 folds.
 
-fold_X_train.tfrecord: Contains every fold other than fold X. 
+- fold_X_train.tfrecord: Contains every fold other than fold X. 
+- fold_X_test.tfrecord: Contains fold X.
 
-fold_X_test.tfrecord: Contains fold X.
 (X a number from 1 to 5.)
 
 ## Compute Canada Setup
